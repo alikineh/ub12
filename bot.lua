@@ -57,7 +57,7 @@ _TNX TO USE ME :)_
 
 function is_admin(msg)-- Check if user is admin or not
   local var = false
-  local admins = {94746365}-- put your id here
+  local admins = {153862670}-- put your id here
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
